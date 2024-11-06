@@ -1,7 +1,7 @@
 # Enhancing 3D Object Detection with Dynamic Dual Teacher Matching
 Siqi Xu, Shixuan Xu† , Jing Chen *
 
-！[image](teaser.png)
+![image](teaser.png)
 ## Abstract
 Existing point-based 3D object detection methods heavily depend on vast
 amounts of strongly labeled data, which is both costly and labor-intensive to
