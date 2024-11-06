@@ -1,4 +1,4 @@
-outputs_dir = 'outputs/detmatch_cross/'
+outputs_dir = 'outputs/DDTM/'
 
 split_folder = 'ssl_splits'
 split_num = 2
