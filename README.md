@@ -1,7 +1,7 @@
 # Dynamic Dual Teacher Matching and Adaptive Thresholds for Enhanced 3D Object Detection
 Siqi Xu, Shixuan Xu† , Jing Chen *
 
-![image](moedel.png)
+![image](model.png)
 ## Abstract
 Existing point-based 3D object detection methods heavily rely on vast amounts
 of strongly labeled data, which is costly and labor-intensive to acquire. In this
