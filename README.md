@@ -1,20 +1,22 @@
-# Enhancing 3D Object Detection with Dynamic Dual Teacher Matching
+# Dynamic Dual Teacher Matching and Adaptive Thresholds for Enhanced 3D Object Detection
 Siqi Xu, Shixuan Xu† , Jing Chen *
 
-![image](teaser.png)
+![image](moedel.png)
 ## Abstract
-Existing point-based 3D object detection methods heavily depend on vast
-amounts of strongly labeled data, which is both costly and labor-intensive to
-acquire. In this paper, we introduce a novel method for 3D object detection called
-DDTM (Dynamic Dual Teacher Matching). In the teacher-student framework,
-the quality of pseudo-labels significantly influences model performance. However,
-during the mutual learning process, detecting errors in pseudo-labels proves challlenging, adversely affecting the quality of subsequent pseudo-label generation.
-To address this, we propose a dynamic dual-teacher approach that alternates
-between the student and a second teacher, leveraging discrepancies for effective matching and filtering to enhance pseudo-label quality. Furthermore, a fixed
-matching threshold can negatively impact the quantity and quality of pseudolabels during continual model optimization. To mitgate this, we implement
-dynamic thresholds that adapt to the model’s requirements. We evaluate our
-method on the KITTI dataset, consistently outperform state-of-the-art methods,
-achieving a 7.7 mAP improvement on a 2% subset of the dataset.
+Existing point-based 3D object detection methods heavily rely on vast amounts
+of strongly labeled data, which is costly and labor-intensive to acquire. In this
+paper, we propose a novel method called Dynamic Dual Teacher Matching
+(DDTM) for 3D object detection. DDTM leverages semi-supervised learning to
+reduce the dependency on large annotated datasets and improve detection performance by enhancing the quality of pseudo-labels. Our approach introduces a
+dynamic dual-teacher strategy that alternates between the student and a second teacher, utilizing discrepancies for matching and filtering to generate more
+reliable pseudo-labels. Additionally, to mitigate the impact of a fixed matching
+threshold, we introduce adaptive thresholds that adjust based on the model’s
+performance. Experimental results on the KITTI dataset demonstrate that our
+method consistently outperforms existing methods, achieving a significant 7.7
+mAP improvement on a 2% subset of the dataset. Our contributions include
+a dual-teacher dynamic matching strategy to improve pseudo-label quality, a
+novel dynamic threshold algorithm, and experimental validation of our approach’s
+effectiveness and robustness in 3D semi-supervised object detection.
 
 ## Environment Setup & Data Setup
 
