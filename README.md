@@ -17,17 +17,18 @@ achieving a 7.7 mAP improvement on a 2% subset of the dataset.
 ## Environment Setup & Data Setup
 [Detmatch](https://github.com/Divadi/DetMatch/blob/main/README.md)
 ## Pretrain
-'./tools/dist_train.sh configs/DDTM/001/pretrain_frcnn/split_0.py 3 --gpus 3 --autoscale-lr
+`./tools/dist_train.sh configs/DDTM/001/pretrain_frcnn/split_0.py 3 --gpus 3 --autoscale-lr
 ./tools/dist_train.sh configs/DDTM/001/pretrain_frcnn/split_1.py 3 --gpus 3 --autoscale-lr
-./tools/dist_train.sh configs/DDTM/001/pretrain_frcnn/split_2.py 3 --gpus 3 --autoscale-lr'
-'./tools/dist_train.sh configs/DDTM/001/pretrain_pvrcnn/split_0.py 3 --gpus 3 --autoscale-lr
+./tools/dist_train.sh configs/DDTM/001/pretrain_frcnn/split_2.py 3 --gpus 3 --autoscale-lr
+
+./tools/dist_train.sh configs/DDTM/001/pretrain_pvrcnn/split_0.py 3 --gpus 3 --autoscale-lr
 ./tools/dist_train.sh configs/DDTM/001/pretrain_pvrcnn/split_1.py 3 --gpus 3 --autoscale-lr
-./tools/dist_train.sh configs/DDTM/001/pretrain_pvrcnn/split_2.py 3 --gpus 3 --autoscale-lr'
+./tools/dist_train.sh configs/DDTM/001/pretrain_pvrcnn/split_2.py 3 --gpus 3 --autoscale-lr`
 ## Train
-'./tools/dist_train.sh configs/DDTM/001/confthr_pvrcnn/split_0.py 3 --gpus 3 --autoscale-lr
+`./tools/dist_train.sh configs/DDTM/001/confthr_pvrcnn/split_0.py 3 --gpus 3 --autoscale-lr
 ./tools/dist_train.sh configs/DDTM/001/confthr_pvrcnn/split_1.py 3 --gpus 3 --autoscale-lr
-./tools/dist_train.sh configs/DDTM/001/confthr_pvrcnn/split_2.py 3 --gpus 3 --autoscale-lr'
+./tools/dist_train.sh configs/DDTM/001/confthr_pvrcnn/split_2.py 3 --gpus 3 --autoscale-lr`
 ## Evaluation
-'# Average metrics for DDMT (Both modalities)
-python tools/average_runs.py --type fusion --log_jsons outputs/DDTM/001/confthr_pvrcnn/split_0 outputs/DDTM/001/confthr_pvrcnn/split_1 outputs/DDTM/001/confthr_pvrcnn/split_2'
+`# Average metrics for DDMT (Both modalities)
+python tools/average_runs.py --type fusion --log_jsons outputs/DDTM/001/confthr_pvrcnn/split_0 outputs/DDTM/001/confthr_pvrcnn/split_1 outputs/DDTM/001/confthr_pvrcnn/split_2`
 
