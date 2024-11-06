@@ -7,8 +7,8 @@ Existing point-based 3D object detection methods heavily rely on vast amounts
 of strongly labeled data, which is costly and labor-intensive to acquire. In this
 paper, we propose a novel method called Dynamic Dual Teacher Matching
 (DDTM) for 3D object detection. DDTM leverages semi-supervised learning to
-reduce the dependency on large annotated datasets and improve detection performance by enhancing the quality of pseudo-labels. Our approach introduces a
-dynamic dual-teacher strategy that alternates between the student and a second teacher, utilizing discrepancies for matching and filtering to generate more
+reduce the dependency on large annotated datasets and improve detection performance by enhancing the quality of pseudo-labels. Our approach introduces a
+dynamic dual-teacher strategy that alternates between the student and a second teacher, utilizing discrepancies for matching and filtering to generate more
 reliable pseudo-labels. Additionally, to mitigate the impact of a fixed matching
 threshold, we introduce adaptive thresholds that adjust based on the model’s
 performance. Experimental results on the KITTI dataset demonstrate that our
