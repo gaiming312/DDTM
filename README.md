@@ -48,3 +48,9 @@ achieving a 7.7 mAP improvement on a 2% subset of the dataset.
 
 `python tools/average_runs.py --type fusion --log_jsons outputs/DDTM/001/confthr_pvrcnn/split_0 outputs/DDTM/001/confthr_pvrcnn/split_1 outputs/DDTM/001/confthr_pvrcnn/split_2`
 
+## Acknowledgements
+We sincerely thank the following excellent works and open-source codebases:
+-[DetMatch](https://github.com/Divadi/DetMatch)
+-[MMDetection3D](https://github.com/open-mmlab/mmdetection3d)
+-[OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
+-[Spconv](https://github.com/traveller59/spconv)
